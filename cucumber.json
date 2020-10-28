@@ -1,0 +1,1418 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-28T19:11:09.764Z",
+        "line": 2,
+        "name": "Header presence after search",
+        "description": "",
+        "id": "aliexpress-search;header-presence-after-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6479861800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I launch Chrome browser and open aliexpress.com page",
+            "match": {
+              "location": "stepDefinitions.AliexpressSteps.i_launch_chrome_browser_and_open_aliexpress_com_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2093593400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I make a search for computer",
+            "match": {
+              "location": "stepDefinitions.AliexpressSteps.i_make_a_search_for_computer()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 352997900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I check the header of page",
+            "match": {
+              "location": "stepDefinitions.AliexpressSteps.i_check_the_header_of_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 995400000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I close the browser",
+            "match": {
+              "location": "stepDefinitions.AliexpressSteps.i_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Aliexpress Search",
+    "description": "",
+    "id": "aliexpress-search",
+    "keyword": "Feature",
+    "uri": "file:Features/Aliexpress.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-28T19:11:19.916Z",
+        "line": 3,
+        "name": "Check google search",
+        "description": "",
+        "id": "lab7-1;check-google-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3413671500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I launch chrome browser",
+            "match": {
+              "location": "stepDefinitions.Lab7V1.i_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2459179000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open google.com page",
+            "match": {
+              "location": "stepDefinitions.Lab7V1.i_open_google_co_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50000200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I check for google logo",
+            "match": {
+              "location": "stepDefinitions.Lab7V1.i_check_for_google_logo()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 792202400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter a text for search",
+            "match": {
+              "location": "stepDefinitions.Lab7V1.i_enter_a_text_for_search()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 82982000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I check the number of results on a single page",
+            "match": {
+              "location": "stepDefinitions.Lab7V1.i_check_the_number_of_results_on_a_single_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 684000500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I open google.com page",
+            "match": {
+              "location": "stepDefinitions.Lab7V1.i_open_google_co_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 76002400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter nothing and click search button",
+            "match": {
+              "location": "stepDefinitions.Lab7V1.i_enter_nothing_and_click_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54997200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I see no changes",
+            "match": {
+              "location": "stepDefinitions.Lab7V1.i_see_no_changes()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 663053500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I open google.com page",
+            "match": {
+              "location": "stepDefinitions.Lab7V1.i_open_google_co_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1038979900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I search for irrelevant keyword",
+            "match": {
+              "location": "stepDefinitions.Lab7V1.i_search_for_irrelevant_keyword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81004700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I check for Did you mean link",
+            "match": {
+              "location": "stepDefinitions.Lab7V1.i_check_for_did_you_mean_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1116877200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I close the page and browser",
+            "match": {
+              "location": "stepDefinitions.Lab7V1.i_close_the_page_and_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Lab7_1",
+    "description": "",
+    "id": "lab7-1",
+    "keyword": "Feature",
+    "uri": "file:Features/Lab7_1.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-28T19:11:30.476Z",
+        "line": 3,
+        "name": "Check if user is able to perform a search by product name",
+        "description": "",
+        "id": "tic-187;check-if-user-is-able-to-perform-a-search-by-product-name",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8038873500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I launch Chrome browser",
+            "match": {
+              "location": "stepDefinitions.TIC187Steps.i_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1459001000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open loving-hermann page",
+            "match": {
+              "location": "stepDefinitions.TIC187Steps.i_open_loving_hermann_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 363003000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the input intended for searching products",
+            "match": {
+              "location": "stepDefinitions.TIC187Steps.i_click_on_the_input_intended_for_searching_products()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 388955600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Fill the input with a real product name",
+            "match": {
+              "location": "stepDefinitions.TIC187Steps.fill_the_input_with_a_real_product_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 224002900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I check the input is containing entered text",
+            "match": {
+              "location": "stepDefinitions.TIC187Steps.i_check_the_input_is_containing_entered_text()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 696573800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the Search button",
+            "match": {
+              "location": "stepDefinitions.TIC187Steps.i_click_on_the_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"name\",\"selector\":\"product-list\"}\n  (Session info: chrome\u003d86.0.4240.75)\n  (Driver info: chromedriver\u003d86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform\u003dWindows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 5.07 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.53.0\u0027, revision: \u002735ae25b\u0027, time: \u00272016-03-15 17:00:58\u0027\nSystem info: host: \u0027185-200-100-31\u0027, ip: \u0027185.200.100.31\u0027, os.name: \u0027windows\u0027, os.arch: \u0027x86\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_181\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:1803}, acceptInsecureCerts\u003dfalse, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003dignore, applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}), userDataDir\u003dC:\\Windows\\proxy\\scoped_dir3436_1963168690}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d86.0.4240.75, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: 4102ad4c251242ef85fb9a219a2d2416\n*** Element info: {Using\u003dname, value\u003dproduct-list}\nCommand duration or timeout: 0 milliseconds\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:284)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat stepDefinitions.TIC187Steps.i_am_redirected_to_a_page_containing_a_list_of_products(TIC187Steps.java:82)\r\n\tat ✽.I am redirected to a page containing a list of products(file:///D:/University_doc/Anul_IV_sem_1/CS/Lab5/Features/TIC-187.feature:10)\r\nCaused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:140)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:284)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat stepDefinitions.TIC187Steps.i_am_redirected_to_a_page_containing_a_list_of_products(TIC187Steps.java:82)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\r\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\r\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\r\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\r\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\r\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\r\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220)\r\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53)\r\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"name\",\"selector\":\"product-list\"}\n  (Session info: chrome\u003d86.0.4240.75)\n  (Driver info: chromedriver\u003d86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform\u003dWindows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 5.07 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.53.0\u0027, revision: \u002735ae25b\u0027, time: \u00272016-03-15 17:00:58\u0027\nSystem info: host: \u0027185-200-100-31\u0027, ip: \u0027185.200.100.31\u0027, os.name: \u0027windows\u0027, os.arch: \u0027x86\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_181\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:1803}, acceptInsecureCerts\u003dfalse, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003dignore, applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}), userDataDir\u003dC:\\Windows\\proxy\\scoped_dir3436_1963168690}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d86.0.4240.75, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: 4102ad4c251242ef85fb9a219a2d2416\n*** Element info: {Using\u003dname, value\u003dproduct-list}\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-0G2BJ8F\u0027, ip: \u002710.5.3.173\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.1\u0027\nDriver info: driver.version: EventFiringWebDriver\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:461)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:303)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)\r\n\tat com.sun.proxy.$Proxy1.findElement(Unknown Source)\r\n\tat org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)\r\n\tat org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)\r\n\tat org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)\r\n\tat java.util.concurrent.FutureTask.run(Unknown Source)\r\n\tat org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\r\n\tat java.lang.Thread.run(Unknown Source)\r\n",
+              "duration": 7442787500,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "I am redirected to a page containing a list of products",
+            "match": {
+              "location": "stepDefinitions.TIC187Steps.i_am_redirected_to_a_page_containing_a_list_of_products()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1934000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I close the browser",
+            "match": {
+              "location": "stepDefinitions.AliexpressSteps.i_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "TIC-187",
+    "description": "",
+    "id": "tic-187",
+    "keyword": "Feature",
+    "uri": "file:Features/TIC-187.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-28T19:11:49.194Z",
+        "line": 2,
+        "name": "Check quick view of a product",
+        "description": "",
+        "id": "tic-188;check-quick-view-of-a-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9244534800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I launch Chrome browser2",
+            "match": {
+              "location": "stepDefinitions.TIC188Steps.i_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5035624100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open loving-hermann page2",
+            "match": {
+              "location": "stepDefinitions.TIC188Steps.i_open_loving_hermann_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 239424500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I scroll down till the section New Arrivals",
+            "match": {
+              "location": "stepDefinitions.TIC188Steps.i_scroll_down_till_the_section_new_arrivals()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1302217900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I hover the image of an product from section New Arrival",
+            "match": {
+              "location": "stepDefinitions.TIC188Steps.i_hover_the_image_of_an_product_from_section_new_arrival()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 257114100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I check that black button Quick View is displayed",
+            "match": {
+              "location": "stepDefinitions.TIC188Steps.i_check_that_black_button_quick_view_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 187000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click the button Quick View",
+            "match": {
+              "location": "stepDefinitions.TIC188Steps.i_click_the_button_quick_view()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 392526500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am redirected to another page that presents selected product",
+            "match": {
+              "location": "stepDefinitions.TIC188Steps.i_am_redirected_to_another_page_that_presents_selected_product()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 256011100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I check the description section below the product images",
+            "match": {
+              "location": "stepDefinitions.TIC188Steps.i_check_the_description_section_below_the_product_images()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3586992900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I close the browser2",
+            "match": {
+              "location": "stepDefinitions.TIC188Steps.i_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "TIC-188",
+    "description": "",
+    "id": "tic-188",
+    "keyword": "Feature",
+    "uri": "file:Features/TIC-188.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-28T19:12:09.729Z",
+        "line": 2,
+        "name": "Check if the user is not able to perform a registration with invalid input data",
+        "description": "",
+        "id": "tic-189;check-if-the-user-is-not-able-to-perform-a-registration-with-invalid-input-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7116208700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I launch Chrome browser3",
+            "match": {
+              "location": "stepDefinitions.TIC189Steps.i_launch_chrome_browser3()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2233189600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open loving-hermann page3",
+            "match": {
+              "location": "stepDefinitions.TIC189Steps.i_open_loving_hermann_page3()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 493696900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click the button Sign Up",
+            "match": {
+              "location": "stepDefinitions.TIC189Steps.i_click_the_button_sign_up()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 253498700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I check that A pop up form is displayed",
+            "match": {
+              "location": "stepDefinitions.TIC189Steps.i_check_that_a_pop_up_form_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: element not interactable\n  (Session info: chrome\u003d86.0.4240.75)\n  (Driver info: chromedriver\u003d86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform\u003dWindows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 5.10 seconds\nBuild info: version: \u00272.53.0\u0027, revision: \u002735ae25b\u0027, time: \u00272016-03-15 17:00:58\u0027\nSystem info: host: \u0027185-129-70-153\u0027, ip: \u0027185.129.70.153\u0027, os.name: \u0027windows\u0027, os.arch: \u0027x86\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_181\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:1834}, acceptInsecureCerts\u003dfalse, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003dignore, applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}), userDataDir\u003dC:\\Windows\\proxy\\scoped_dir8632_468752161}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d86.0.4240.75, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: 152e3dae94c32fcc0c911b9be2ad4627\nCommand duration or timeout: 0 milliseconds\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)\r\n\tat stepDefinitions.TIC189Steps.i_fill_the_input_field_name_with_valid_data(TIC189Steps.java:78)\r\n\tat ✽.I Fill the input field Name with valid data(file:///D:/University_doc/Anul_IV_sem_1/CS/Lab5/Features/TIC-189.feature:7)\r\nCaused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:140)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)\r\n\tat stepDefinitions.TIC189Steps.i_fill_the_input_field_name_with_valid_data(TIC189Steps.java:78)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\r\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\r\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\r\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\r\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\r\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\r\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220)\r\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53)\r\nCaused by: org.openqa.selenium.WebDriverException: element not interactable\n  (Session info: chrome\u003d86.0.4240.75)\n  (Driver info: chromedriver\u003d86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform\u003dWindows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 5.10 seconds\nBuild info: version: \u00272.53.0\u0027, revision: \u002735ae25b\u0027, time: \u00272016-03-15 17:00:58\u0027\nSystem info: host: \u0027185-129-70-153\u0027, ip: \u0027185.129.70.153\u0027, os.name: \u0027windows\u0027, os.arch: \u0027x86\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_181\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:1834}, acceptInsecureCerts\u003dfalse, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003dignore, applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}), userDataDir\u003dC:\\Windows\\proxy\\scoped_dir8632_468752161}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d86.0.4240.75, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: 152e3dae94c32fcc0c911b9be2ad4627\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-0G2BJ8F\u0027, ip: \u002710.5.3.173\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.1\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:122)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:335)\r\n\tat com.sun.proxy.$Proxy2.sendKeys(Unknown Source)\r\n\tat org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:358)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)\r\n\tat com.sun.proxy.$Proxy3.sendKeys(Unknown Source)\r\n\tat org.openqa.selenium.remote.server.handler.SendKeys.call(SendKeys.java:50)\r\n\tat org.openqa.selenium.remote.server.handler.SendKeys.call(SendKeys.java:1)\r\n\tat java.util.concurrent.FutureTask.run(Unknown Source)\r\n\tat org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\r\n\tat java.lang.Thread.run(Unknown Source)\r\n",
+              "duration": 7716341300,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "I Fill the input field Name with valid data",
+            "match": {
+              "location": "stepDefinitions.TIC189Steps.i_fill_the_input_field_name_with_valid_data()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I Fill the input field Email with invalid data",
+            "match": {
+              "location": "stepDefinitions.TIC189Steps.i_fill_the_input_field_email_with_invalid_data()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I Fill the input field Password with valid data",
+            "match": {
+              "location": "stepDefinitions.TIC189Steps.i_fill_the_input_field_password_with_valid_data()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I Fill the input field Confirm Password with valid data",
+            "match": {
+              "location": "stepDefinitions.TIC189Steps.i_fill_the_input_field_confirm_password_with_valid_data()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I Click SIGN UP button",
+            "match": {
+              "location": "stepDefinitions.TIC189Steps.i_click_sign_up_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Alert message is displayed under the input field Email",
+            "match": {
+              "location": "stepDefinitions.TIC189Steps.alert_message_is_displayed_under_the_input_field_email()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I close the browser3",
+            "match": {
+              "location": "stepDefinitions.TIC189Steps.i_close_the_browser3()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "TIC-189",
+    "description": "",
+    "id": "tic-189",
+    "keyword": "Feature",
+    "uri": "file:Features/TIC-189.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-28T19:12:27.591Z",
+        "line": 2,
+        "name": "Check if the user is able to perform a registration with valid input data",
+        "description": "",
+        "id": "tic-190;check-if-the-user-is-able-to-perform-a-registration-with-valid-input-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5541836300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I launch Chrome browser4",
+            "match": {
+              "location": "stepDefinitions.TIC190Steps.i_launch_chrome_browser4()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2621998600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open loving-hermann page4",
+            "match": {
+              "location": "stepDefinitions.TIC190Steps.i_open_loving_hermann_page4()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 512676200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click the button Sign Up2",
+            "match": {
+              "location": "stepDefinitions.TIC190Steps.i_click_the_button_sign_up2()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 362607900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I check that A pop up form is displayed2",
+            "match": {
+              "location": "stepDefinitions.TIC190Steps.i_check_that_a_pop_up_form_is_displayed2()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: element not interactable\n  (Session info: chrome\u003d86.0.4240.75)\n  (Driver info: chromedriver\u003d86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform\u003dWindows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 5.12 seconds\nBuild info: version: \u00272.53.0\u0027, revision: \u002735ae25b\u0027, time: \u00272016-03-15 17:00:58\u0027\nSystem info: host: \u002710-144-160-167\u0027, ip: \u002710.144.160.167\u0027, os.name: \u0027windows\u0027, os.arch: \u0027x86\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_181\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:1815}, acceptInsecureCerts\u003dfalse, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003dignore, applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}), userDataDir\u003dC:\\Windows\\proxy\\scoped_dir6364_1713431191}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d86.0.4240.75, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: 5f9a8b6d5827e4c57d8e92208e94ee3d\nCommand duration or timeout: 0 milliseconds\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)\r\n\tat stepDefinitions.TIC190Steps.i_fill_the_input_field_name_with_valid_data2(TIC190Steps.java:77)\r\n\tat ✽.I Fill the input field Name with valid data2(file:///D:/University_doc/Anul_IV_sem_1/CS/Lab5/Features/TIC-190.feature:7)\r\nCaused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:140)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)\r\n\tat stepDefinitions.TIC190Steps.i_fill_the_input_field_name_with_valid_data2(TIC190Steps.java:77)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\r\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\r\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\r\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\r\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\r\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\r\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220)\r\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53)\r\nCaused by: org.openqa.selenium.WebDriverException: element not interactable\n  (Session info: chrome\u003d86.0.4240.75)\n  (Driver info: chromedriver\u003d86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform\u003dWindows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 5.12 seconds\nBuild info: version: \u00272.53.0\u0027, revision: \u002735ae25b\u0027, time: \u00272016-03-15 17:00:58\u0027\nSystem info: host: \u002710-144-160-167\u0027, ip: \u002710.144.160.167\u0027, os.name: \u0027windows\u0027, os.arch: \u0027x86\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_181\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:1815}, acceptInsecureCerts\u003dfalse, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003dignore, applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}), userDataDir\u003dC:\\Windows\\proxy\\scoped_dir6364_1713431191}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d86.0.4240.75, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: 5f9a8b6d5827e4c57d8e92208e94ee3d\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-0G2BJ8F\u0027, ip: \u002710.5.3.173\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.1\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:122)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:335)\r\n\tat com.sun.proxy.$Proxy2.sendKeys(Unknown Source)\r\n\tat org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:358)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)\r\n\tat com.sun.proxy.$Proxy3.sendKeys(Unknown Source)\r\n\tat org.openqa.selenium.remote.server.handler.SendKeys.call(SendKeys.java:50)\r\n\tat org.openqa.selenium.remote.server.handler.SendKeys.call(SendKeys.java:1)\r\n\tat java.util.concurrent.FutureTask.run(Unknown Source)\r\n\tat org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\r\n\tat java.lang.Thread.run(Unknown Source)\r\n",
+              "duration": 8141408800,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "I Fill the input field Name with valid data2",
+            "match": {
+              "location": "stepDefinitions.TIC190Steps.i_fill_the_input_field_name_with_valid_data2()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I Fill the input field Email with valid data",
+            "match": {
+              "location": "stepDefinitions.TIC190Steps.i_fill_the_input_field_email_with_valid_data()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I Fill the input field Password with valid data2",
+            "match": {
+              "location": "stepDefinitions.TIC190Steps.i_fill_the_input_field_password_with_valid_data2()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I Fill the input field Confirm Password with valid data2",
+            "match": {
+              "location": "stepDefinitions.TIC190Steps.i_fill_the_input_field_confirm_password_with_valid_data2()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I Click SIGN UP button2",
+            "match": {
+              "location": "stepDefinitions.TIC190Steps.i_click_sign_up_button2()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I am redirected to home page",
+            "match": {
+              "location": "stepDefinitions.TIC190Steps.i_am_redirected_to_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I am looking for Sign In Button",
+            "match": {
+              "location": "stepDefinitions.TIC190Steps.i_am_looking_for_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Sign In button is not present",
+            "match": {
+              "location": "stepDefinitions.TIC190Steps.sign_in_button_is_not_present()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I close the browser4",
+            "match": {
+              "location": "stepDefinitions.TIC190Steps.i_close_the_browser4()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "TIC-190",
+    "description": "",
+    "id": "tic-190",
+    "keyword": "Feature",
+    "uri": "file:Features/TIC-190.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-28T19:12:44.817Z",
+        "line": 2,
+        "name": "Check if the user is able to execute login",
+        "description": "",
+        "id": "tic-191;check-if-the-user-is-able-to-execute-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7377333500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I launch Chrome browser5",
+            "match": {
+              "location": "stepDefinitions.TIC191Steps.i_launch_chrome_browser5()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2607503800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open loving-hermann page5",
+            "match": {
+              "location": "stepDefinitions.TIC191Steps.i_open_loving_hermann_page5()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 495033300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Click the button Sign In",
+            "match": {
+              "location": "stepDefinitions.TIC191Steps.i_click_the_button_sign_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 293988100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I check that A pop up form is displayed3",
+            "match": {
+              "location": "stepDefinitions.TIC191Steps.i_check_that_a_pop_up_form_is_displayed3()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 386002300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Fill the input field Name with valid data3",
+            "match": {
+              "location": "stepDefinitions.TIC191Steps.i_fill_the_input_field_name_with_valid_data3()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 376999900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Fill the input field Password with valid data3",
+            "match": {
+              "location": "stepDefinitions.TIC191Steps.i_fill_the_input_field_password_with_valid_data3()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 680996700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I Click SIGN IN button",
+            "match": {
+              "location": "stepDefinitions.TIC191Steps.i_click_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c...-e2094b.netlify.app/[index.html]\u003e but was:\u003c...-e2094b.netlify.app/[#]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinitions.TIC191Steps.i_am_redirected_to_home_page2(TIC191Steps.java:94)\r\n\tat ✽.I am redirected to home page2(file:///D:/University_doc/Anul_IV_sem_1/CS/Lab5/Features/TIC-191.feature:10)\r\n",
+              "duration": 110054500,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "I am redirected to home page2",
+            "match": {
+              "location": "stepDefinitions.TIC191Steps.i_am_redirected_to_home_page2()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I am looking for Sign In Button2",
+            "match": {
+              "location": "stepDefinitions.TIC191Steps.i_am_looking_for_sign_in_button2()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Sign In button is not present2",
+            "match": {
+              "location": "stepDefinitions.TIC191Steps.sign_in_button_is_not_present2()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Profile button is displayed",
+            "match": {
+              "location": "stepDefinitions.TIC191Steps.profile_button_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997000,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I close the browser5",
+            "match": {
+              "location": "stepDefinitions.TIC191Steps.i_close_the_browser5()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "TIC-191",
+    "description": "",
+    "id": "tic-191",
+    "keyword": "Feature",
+    "uri": "file:Features/TIC-191.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-28T19:12:57.182Z",
+        "line": 2,
+        "name": "Check if the user can submit the contact form",
+        "description": "",
+        "id": "tic-192;check-if-the-user-can-submit-the-contact-form",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8317658400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I launch Chrome browser6",
+            "match": {
+              "location": "stepDefinitions.TIC192Steps.i_launch_chrome_browser6()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2326891100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open loving-hermann page6",
+            "match": {
+              "location": "stepDefinitions.TIC192Steps.i_open_loving_hermann_page6()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1386536000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click on the tab Contact",
+            "match": {
+              "location": "stepDefinitions.TIC192Steps.click_on_the_tab_contact()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 452360400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I check that A contact form is present",
+            "match": {
+              "location": "stepDefinitions.TIC192Steps.i_check_that_a_contact_form_is_present()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 387157500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Fill the input field Name with valid data4",
+            "match": {
+              "location": "stepDefinitions.TIC192Steps.i_fill_the_input_field_name_with_valid_data4()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 518445700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Fill the input field Email with valid data4",
+            "match": {
+              "location": "stepDefinitions.TIC192Steps.i_fill_the_input_field_email_with_valid_data4()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1409340200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I Fill the input field Subject with a valid data",
+            "match": {
+              "location": "stepDefinitions.TIC192Steps.i_fill_the_input_field_subject_with_a_valid_data()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 503942200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I Fill the input field Message with a valid data",
+            "match": {
+              "location": "stepDefinitions.TIC192Steps.i_fill_the_input_field_message_with_a_valid_data()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 918759500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I Click SEBD button",
+            "match": {
+              "location": "stepDefinitions.TIC192Steps.i_click_sebd_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"class name\",\"selector\":\"alert\"}\n  (Session info: chrome\u003d86.0.4240.75)\n  (Driver info: chromedriver\u003d86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform\u003dWindows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 5.02 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.53.0\u0027, revision: \u002735ae25b\u0027, time: \u00272016-03-15 17:00:58\u0027\nSystem info: host: \u00275-255-93-44\u0027, ip: \u00275.255.93.44\u0027, os.name: \u0027windows\u0027, os.arch: \u0027x86\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_181\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:1890}, acceptInsecureCerts\u003dfalse, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003dignore, applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}), userDataDir\u003dC:\\Windows\\proxy\\scoped_dir8288_581312554}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d86.0.4240.75, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: 3c50d594363c37cef842b71e2c72a97c\n*** Element info: {Using\u003dclass name, value\u003dalert}\nCommand duration or timeout: 0 milliseconds\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)\r\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:389)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat stepDefinitions.TIC192Steps.i_check_for_a_notification_on_the_top_of_webpage(TIC192Steps.java:103)\r\n\tat ✽.I check for A notification on the top of webpage(file:///D:/University_doc/Anul_IV_sem_1/CS/Lab5/Features/TIC-192.feature:12)\r\nCaused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:140)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)\r\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:389)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat stepDefinitions.TIC192Steps.i_check_for_a_notification_on_the_top_of_webpage(TIC192Steps.java:103)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\r\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\r\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\r\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\r\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\r\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\r\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220)\r\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53)\r\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"class name\",\"selector\":\"alert\"}\n  (Session info: chrome\u003d86.0.4240.75)\n  (Driver info: chromedriver\u003d86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform\u003dWindows NT 10.0.19041 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 5.02 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.53.0\u0027, revision: \u002735ae25b\u0027, time: \u00272016-03-15 17:00:58\u0027\nSystem info: host: \u00275-255-93-44\u0027, ip: \u00275.255.93.44\u0027, os.name: \u0027windows\u0027, os.arch: \u0027x86\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_181\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:1890}, acceptInsecureCerts\u003dfalse, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003dignore, applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}), userDataDir\u003dC:\\Windows\\proxy\\scoped_dir8288_581312554}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d86.0.4240.75, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, webauthn:virtualAuthenticators\u003dtrue}]\nSession ID: 3c50d594363c37cef842b71e2c72a97c\n*** Element info: {Using\u003dclass name, value\u003dalert}\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-0G2BJ8F\u0027, ip: \u002710.5.3.173\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.1\u0027\nDriver info: driver.version: EventFiringWebDriver\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:477)\r\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:391)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)\r\n\tat com.sun.proxy.$Proxy1.findElement(Unknown Source)\r\n\tat org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)\r\n\tat org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)\r\n\tat org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)\r\n\tat java.util.concurrent.FutureTask.run(Unknown Source)\r\n\tat org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)\r\n\tat java.lang.Thread.run(Unknown Source)\r\n",
+              "duration": 6991745500,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "I check for A notification on the top of webpage",
+            "match": {
+              "location": "stepDefinitions.TIC192Steps.i_check_for_a_notification_on_the_top_of_webpage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I close the browser6",
+            "match": {
+              "location": "stepDefinitions.TIC192Steps.i_close_the_browser6()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "TIC-192",
+    "description": "",
+    "id": "tic-192",
+    "keyword": "Feature",
+    "uri": "file:Features/TIC-192.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-28T19:13:20.446Z",
+        "line": 2,
+        "name": "Check if the user can add multiple products to cart",
+        "description": "",
+        "id": "tic-193;check-if-the-user-can-add-multiple-products-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5208721000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I launch Chrome browser7",
+            "match": {
+              "location": "stepDefinitions.TIC193Steps.i_launch_chrome_browser7()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4998453200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open loving-hermann page7",
+            "match": {
+              "location": "stepDefinitions.TIC193Steps.i_open_loving_hermann_page7()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Scroll down till New Arrival section",
+            "match": {
+              "location": "stepDefinitions.TIC193Steps.i_scroll_down_till_new_arrival_section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 433703000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I check that New Arrival section exists",
+            "match": {
+              "location": "stepDefinitions.TIC193Steps.i_check_that_new_arrival_section_exists()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 306789500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Click ADD TO CART button",
+            "match": {
+              "location": "stepDefinitions.TIC193Steps.i_click_add_to_cart_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 406145500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I check that In the cart list has appeared selected product",
+            "match": {
+              "location": "stepDefinitions.TIC193Steps.i_check_that_in_the_cart_list_has_appeared_selected_product()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 503750800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I Modify the quantity of the second product from the cart from 1 to 10",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 63
+                },
+                {
+                  "val": "10",
+                  "offset": 68
+                }
+              ],
+              "location": "stepDefinitions.TIC193Steps.i_modify_the_quantity_of_the_second_product_from_the_cart_from_to(java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 924794800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I check that The Price of the product is raised",
+            "match": {
+              "location": "stepDefinitions.TIC193Steps.i_check_that_the_price_of_the_product_is_raised()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2092673500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I close the browser7",
+            "match": {
+              "location": "stepDefinitions.TIC193Steps.i_close_the_browser7()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "TIC-193",
+    "description": "",
+    "id": "tic-193",
+    "keyword": "Feature",
+    "uri": "file:Features/TIC-193.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-28T19:13:35.341Z",
+        "line": 2,
+        "name": "Check if sorting of products works",
+        "description": "",
+        "id": "tic-194;check-if-sorting-of-products-works",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7627734100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I launch Chrome browser8",
+            "match": {
+              "location": "stepDefinitions.TIC194Steps.i_launch_chrome_browser8()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2448739200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open loving-hermann page8",
+            "match": {
+              "location": "stepDefinitions.TIC194Steps.i_open_loving_hermann_page8()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 365501600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Click on the Men\u0027s wear button",
+            "match": {
+              "location": "stepDefinitions.TIC194Steps.i_click_on_the_men_s_wear_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 352302900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I check that A pop-up should appear with two links",
+            "match": {
+              "location": "stepDefinitions.TIC194Steps.i_check_that_a_pop_up_should_appear_with_two_links()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13238827100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Click on the Clothing link",
+            "match": {
+              "location": "stepDefinitions.TIC194Steps.i_click_on_the_clothing_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 136174600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I check that User should be redirected to page mens.html",
+            "match": {
+              "location": "stepDefinitions.TIC194Steps.i_check_that_user_should_be_redirected_to_page_mens_html()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 739022100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I Select sorting method Name AZ",
+            "match": {
+              "location": "stepDefinitions.TIC194Steps.i_select_sorting_method_name_az()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 576690700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I check that Products should be ordered by name fromA to Z",
+            "match": {
+              "location": "stepDefinitions.TIC194Steps.i_check_that_products_should_be_ordered_by_name_from_a_to_z()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1071913400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I Select sorting method Name ZA",
+            "match": {
+              "location": "stepDefinitions.TIC194Steps.i_select_sorting_method_name_za()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 271632100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I check that Products should be ordered by name fromZ to A",
+            "match": {
+              "location": "stepDefinitions.TIC194Steps.i_check_that_products_should_be_ordered_by_name_from_z_to_a()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1946295600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I close the browser8",
+            "match": {
+              "location": "stepDefinitions.TIC194Steps.i_close_the_browser8()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "TIC-194",
+    "description": "",
+    "id": "tic-194",
+    "keyword": "Feature",
+    "uri": "file:Features/TIC-194.feature",
+    "tags": []
+  }
+]
