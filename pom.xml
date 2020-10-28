@@ -102,6 +102,12 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+            <groupId>com.browserstack</groupId>
+            <artifactId>browserstack-local-java</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+
 
     </dependencies>
 
